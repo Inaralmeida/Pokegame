@@ -1,8 +1,16 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home/Home";
+
+
 
 
 function App() {
+
+
   return (
-    <h1>Olá Mundo</h1>
+    <>
+    oi
+    </>
   );
 }
 

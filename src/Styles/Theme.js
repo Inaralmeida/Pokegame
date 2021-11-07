@@ -1,10 +1,10 @@
-export const Theme = {
+ const Theme = {
   colors: {
-    textLigth: "#f2f2f2",
+    textLight: "#f2f2f2",
     textDark: "#101010",
-    bgLigth: "#f2f2f2",
+    bgLight: "#f2f2f2",
     bgDark: "#000",
-    grayLigth: "#555",
+    grayLight: "#555",
     grayDark: "#444",
     primaryLight: "#E06323",
     primaryDark: "#A0481A",
@@ -14,9 +14,9 @@ export const Theme = {
     successDark: "#63E424",
     warningLight: '#FF8274',
     warningDark: '#E4301B',
-    infoLigth: '#FFF071',
+    infoLight: '#FFF071',
     infoDark: '#E3CF1D',
-    shadowLigth: 'rgba(255, 255, 255, 0.6)',
+    shadowLight: 'rgba(255, 255, 255, 0.6)',
     shadowDark: 'rgba(0, 0, 0, 0.25)',
   },
   fonts:{
@@ -25,3 +25,4 @@ export const Theme = {
       text: "'Cutive Mono', monospace;",
   }
 };
+export default Theme
