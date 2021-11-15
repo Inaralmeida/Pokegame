@@ -87,7 +87,7 @@ export const Select = styled.div`
 
 export const PokeEscolhido = styled.div`
   width: 80%;
-  height: 80vh;
+  height: 90vh;
   position: absolute;
   display: block;
   padding: 20px;

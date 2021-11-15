@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bgHome1 from "../Assets/img/bg-home-1.jpg";
+import bgHome1 from "../../Assets/img/bg-home-1.jpg";
 
 export const Container = styled.div`
   width: 100%;
@@ -40,7 +40,8 @@ export const Container = styled.div`
     }
 
     > .btn-next {
-      width: 100px;
+      min-width: 100px;
+      padding: 10px;
       height: 40px;
       background: ${(p) => p.theme.colors.primaryLight};
       box-shadow: 5px 6px 11px ${(p) => p.theme.colors.shadowLight};

@@ -12,6 +12,9 @@ import Reducer from "./reducer";
     },
     level: 0,
   },
+  pokedex:[
+
+  ],
   history: [
     {
       date: "",

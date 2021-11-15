@@ -3,7 +3,7 @@ import * as S from './Home.styles'
 import { Redirect } from 'react-router-dom'
 import pokemonLogo from '../../Assets/img/pokemon-logo.png'
 import { GlobalState } from '../../Context/GlobalState'
-import Dialogue from '../../Components/Dialogue'
+import Dialogue from '../../Components/Dialogue/Dialogue'
 
 const Home = () => {
   const { dispatch } = useContext(GlobalState)
@@ -17,11 +17,13 @@ const Home = () => {
     })
   }
 
+
   const NextPage = () => {
     console.log(name)
     if (name.length >= 3) {
       setRedirectTo('/select-pokemon')
       console.log(redirectTo)
+      localStorage.setItem('username', name)
       setState(name)
     }
   }

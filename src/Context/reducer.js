@@ -7,6 +7,16 @@ const Reducer = (state, action)=>{
                     username: action.payload
                 }
             }    
+        case 'ADD-POKEMON-BAG-AND-POKEDEX':
+            return{
+                ...state,
+                user:{
+                    bag:{
+                        pokemons: [...state.user.bag.pokemons,  action.payload]
+                    }
+                },
+                pokedex: [...state.pokedex,  action.payload]
+            }    
         default:
             break;
     }

@@ -1,12 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { GlobalProvider } from "./Context/GlobalState";
 import Rotas from "./Routes";
 
 ReactDOM.render(
   <React.StrictMode>
- 
-      <Rotas />
+    <Rotas />
   </React.StrictMode>,
   document.getElementById("root")
 );
